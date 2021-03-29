@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <import type="android.view.View" />
+        <variable
+            name="abbreviation"
+            type="String" />
+
+        <variable
+            name="since"
+            type="String" />
+
+        <variable
+            name="separator"
+            type="Boolean" />
+    </data>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/parent_layout"
+        android:background="@drawable/ripple_effect"
+        android:paddingStart="@dimen/dp20"
+        android:paddingEnd="@dimen/dp20"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="@dimen/dp20"
+            android:text="@{abbreviation}"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp24"
+            android:fontFamily="@font/averta_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="@dimen/dp10"
+            android:layout_marginBottom="@dimen/dp20"
+            android:text="@{since}"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/sp20"
+            android:fontFamily="@font/averta_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:visibility="@{separator ? View.VISIBLE : View.GONE}"
+            android:background="@color/light_gray"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp" />
+    </LinearLayout>
+</layout>

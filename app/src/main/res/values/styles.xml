@@ -1,0 +1,344 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="myTextInputLabel" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColorHint">@color/dark_blue</item>
+        <item name="colorAccent">@color/dark_blue</item>
+        <item name="colorControlNormal">@color/blue_grey</item>
+        <item name="colorControlActivated">@color/blue_grey</item>
+        <item name="colorOnError">@color/red</item>
+    </style>
+
+    <!--Toolbar Title Text View With Averta-->
+    <style name="Snippet.ToolbarTitle" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/sp30</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="textAllCaps">false</item>
+        <item name="fontFamily">@font/averta_bold</item>
+    </style>
+
+
+    <!-- Extra Large Heading H1 size 33-->
+    <style name="heading_h1" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/sp49</item>
+        <item name="android:textColor">@color/light_gray_other</item>
+        <item name="android:lineSpacingExtra">@dimen/sp8</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textAlignment">center</item>
+        <item name="fontFamily">@font/averta_bold</item>
+    </style>
+
+
+    <!-- Extra Large Heading With Bold H1 size 33-->
+    <style name="heading_bold_h1" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/sp49</item>
+        <item name="android:textColor">@color/light_gray_other</item>
+        <item name="android:lineSpacingExtra">@dimen/sp8</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textAlignment">center</item>
+        <item name="fontFamily">@font/averta_bold</item>
+    </style>
+
+    <!-- Extra Large Heading Login Signup with size 33-->
+    <style name="snippet_heading_h1_light_grey" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/sp49</item>
+        <item name="android:textColor">@color/light_gray_other</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+
+
+    <!--Sub Heading Title Text View With New York with size 28 and with spacing-->
+    <style name="sub_heading_h2_new_york" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/sp42</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:letterSpacing" tools:targetApi="lollipop">0.02</item>
+        <item name="android:lineSpacingExtra">@dimen/sp8</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="fontFamily">@font/new_york_regular</item>
+    </style>
+
+    <style name="sub_heading_h2_new_york_small" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/sp42</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:letterSpacing" tools:targetApi="lollipop">0.02</item>
+        <item name="android:lineSpacingExtra">@dimen/sp8</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="fontFamily">@font/new_york_regular</item>
+    </style>
+
+
+    <!--Sub Heading Title Text View With Averta with size 30 and with spacing-->
+    <style name="sub_heading_h2_averta" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/sp45</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="textAllCaps">false</item>
+        <item name="fontFamily">@font/new_york_regular</item>
+    </style>
+
+
+    <!--sub heading small Text View size 20 With Averta-->
+    <style name="sub_heading_h3_averta" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/sp30</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:lineSpacingExtra">@dimen/sp8</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="fontFamily">@font/averta</item>
+    </style>
+
+
+    <!--sub heading small Text View size 20 With Averta light gray color-->
+
+    <style name="sub_heading_h3_averta_light_grey" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/sp30</item>
+        <item name="android:textColor">@color/light_gray_other</item>
+        <item name="textAllCaps">false</item>
+        <item name="fontFamily">@font/averta</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!--Small Text View With New York-->
+    <style name="sub_heading_h3_averta_bold" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/sp33</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:lineSpacingExtra">@dimen/sp8</item>
+
+        <item name="textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="fontFamily">@font/averta</item>
+    </style>
+
+    <!--Sub heading size 20 with averta -->
+
+    <style name="sub_heading_h3_averta_darkblue" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/sp30</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="textAllCaps">false</item>
+        <item name="fontFamily">@font/averta</item>
+    </style>
+
+    <style name="sub_heading_h3_averta_darkblue_bold" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/sp30</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="textAllCaps">false</item>
+        <item name="fontFamily">@font/averta</item>
+    </style>
+
+    <style name="averta_darkblue_bold" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/sp30</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="textAllCaps">false</item>
+        <item name="fontFamily">@font/averta_bold</item>
+    </style>
+
+
+    <!--Sub heading size 23 with averta -->
+
+    <style name="sub_heading_item_rectangle_tablet" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/sp34</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="textAllCaps">false</item>
+        <item name="fontFamily">@font/averta</item>
+    </style>
+
+    <!--Small Text View With size 16 with no gravity and alignment-->
+
+    <style name="sub_heading_h4_averta_darkblue" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/sp24</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="textAllCaps">false</item>
+        <item name="fontFamily">@font/averta</item>
+    </style>
+
+    <!--Small Text View With size 16 with bold and no  gravity and alignment-->
+
+    <style name="sub_heading_h4_averta_bold" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/sp24</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="textAllCaps">false</item>
+        <item name="fontFamily">@font/averta_bold</item>
+    </style>
+
+
+    <!--Small Text View With size 15-->
+
+    <style name="sub_heading_h5_averta_light_grey" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/sp22</item>
+        <item name="android:textColor">@color/light_gray_other</item>
+        <item name="textAllCaps">false</item>
+        <item name="fontFamily">@font/averta</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <!--heading for otp size 25-->
+    <style name="heading_for_otp" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/sp37</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="textAllCaps">false</item>
+        <item name="fontFamily">@font/averta_bold</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+
+    <!--Button With Averta-->
+
+    <style name="Snippet.ButtonAverta" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">@dimen/sp30</item>
+        <item name="fontFamily">@font/averta_bold</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/ripple_effect_with_background</item>
+    </style>
+
+    <!--Button With New York-->
+
+    <style name="Snippet.ButtonNewYork" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">@dimen/sp30</item>
+        <item name="fontFamily">@font/new_york_regular</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/ripple_effect_with_background</item>
+    </style>
+
+
+    <style name="Snippet.EditText1" parent="@android:style/Widget.EditText">
+        <item name="android:textSize">@dimen/sp37</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="textAllCaps">false</item>
+        <item name="fontFamily">@font/averta</item>
+        <item name="android:letterSpacing" tools:targetApi="lollipop">0.02</item>
+        <item name="android:lineSpacingExtra">@dimen/sp5</item>
+
+    </style>
+
+
+    <!--card view dashboard-->
+
+    <style name="cardview" parent="@android:style/Widget.EditText">
+        <item name="cardForegroundColor">@color/white</item>
+        <item name="cornerRadius">@dimen/dp15</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+
+    <style name="tabLayout_theme" parent="@style/AppTheme">
+        <item name="android:singleLine">true</item>
+    </style>
+
+
+    <style name="Theme.Transparent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+
+        ...
+        <!-- It helps change color when you press and slide on Switch -->
+        <style name="MyIOSSwitch" parent="Theme.AppCompat.Light">
+            <item name="colorControlActivated">#F50000</item>
+            <item name="android:colorForeground">#888888</item>
+        </style>
+
+
+
+
+<!--    new styles-->
+    <!--Sub Heading Title Text View With New York with size 25 and with spacing-->
+    <style name="heading_serif_pro_semi_bold" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:letterSpacing" tools:targetApi="lollipop">0.02</item>
+        <item name="android:lineSpacingExtra">@dimen/sp8</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="fontFamily">@font/serifpro_semibold</item>
+    </style>
+
+    <!--Sub Heading Title Text View With New York with size 25 and with spacing-->
+    <style name="poppins_regular" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:letterSpacing" tools:targetApi="lollipop">0.06</item>
+        <item name="android:lineSpacingExtra">@dimen/sp8</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <!--Sub Heading Title Text View With New York with size 18 and with spacing-->
+    <style name="poppins_semi_bold" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:letterSpacing" tools:targetApi="lollipop">0.02</item>
+        <item name="android:lineSpacingExtra">@dimen/sp8</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="fontFamily">@font/poppins_semi_bold</item>
+    </style>
+
+
+    <!--Sub Heading Title Text View With New York with size 14 and with spacing-->
+    <style name="poppins_medium" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:letterSpacing" tools:targetApi="lollipop">0.01</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <!--Sub Heading Title Text View With New York with size 14.3 and with spacing-->
+    <style name="poppins_light" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">14.3sp</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:letterSpacing" tools:targetApi="lollipop">0.06</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="fontFamily">@font/poppins_light</item>
+    </style>
+
+    <!--Sub Heading Title Text View With New York with size 14 and with spacing-->
+    <style name="poppins_bold" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:letterSpacing" tools:targetApi="lollipop">0.06</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="fontFamily">@font/poppins_bold</item>
+    </style>
+
+    <!--Sub Heading Title Text View With New York with size 30 and with spacing-->
+    <style name="montserrat_semi_bold" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="fontFamily">@font/montserrat_semi_bold</item>
+    </style>
+
+
+
+
+</resources>

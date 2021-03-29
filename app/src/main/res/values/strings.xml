@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Acronym Converter</string>
+    <string name="something_wrong">Something went wrong.</string>
+    <string name="enter_short_name">Enter Acronym</string>
+    <string name="find_abbreviation">Acronym Meanings</string>
+    <string name="no_acronym_meaning_found">No Meaning found.</string>
+</resources>

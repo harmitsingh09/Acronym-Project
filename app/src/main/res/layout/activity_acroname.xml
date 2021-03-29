@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_light_white"
+        android:orientation="vertical"
+        tools:context=".modules.acronym.AcronymActivity">
+
+        <TextView
+            android:layout_marginTop="@dimen/dp40"
+            android:layout_gravity="center"
+            android:text="@string/find_abbreviation"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp30"
+            android:fontFamily="@font/averta_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_marginStart="@dimen/dp16"
+            android:layout_marginEnd="@dimen/dp16"
+            android:layout_marginBottom="@dimen/dp16"
+            android:layout_marginTop="@dimen/dp24"
+            android:textSize="@dimen/sp24"
+            android:paddingStart="@dimen/dp40"
+            android:paddingEnd="@dimen/dp40"
+            android:paddingTop="@dimen/dp20"
+            android:paddingBottom="@dimen/dp20"
+            android:hint="@string/enter_short_name"
+            android:background="@drawable/background_white_round"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_edit_text" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/empty_view"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/dp40"
+                android:layout_gravity="center"
+                android:text="@string/no_acronym_meaning_found"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/sp24"
+                android:fontFamily="@font/averta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ProgressBar
+                android:visibility="gone"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/progress_bar" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_margin="@dimen/dp10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/acromine_recycler" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</layout>

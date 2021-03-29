@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#06091C</color>
+    <color name="colorAccent">#06091C</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="dark_blue">#06091C</color>
+    <color name="sky_blue">#91DBE0</color>
+    <color name="sky_blue_dark">#5CC4D1</color>
+
+    <color name="blue_grey">#9a9ba3</color>
+    <color name="hint_grey">#ebebeb</color>
+
+    <color name="grey_tint_color">#194c4c4c</color>
+    <color name="edit_text_underline">#d8d8d8</color>
+    <color name="light_gray">#9e9e9e</color>
+    <color name="light_gray_other">#9B9DA4</color>
+    <color name="gray_other_2">#06091C</color>
+    <color name="gray">#82848D</color>
+    <color name="gray_other_3">#B9B9B9</color>
+
+
+    <color name="dark_green">#0e9c57</color>
+
+    <color name="premium_text_color">#7D8199</color>
+    <color name="light_gray_ten_per">#309B9DA4</color>
+    <color name="light_gray_ten_per_new">#194c4c4c</color>
+    <color name="home_icon_grey">#B9B9B9</color>
+    <color name="red">#FF0606</color>
+
+
+    <color name="light_white">#c6c6c6</color>
+    <color name="very_light_white">#F7F7F7</color>
+
+    <color name="trans">#00FFFFFF</color>
+    <color name="light_pink">#ED8273</color>
+    <color name="light_green">#92D59D</color>
+    <color name="pi">#7E7F9A</color>
+    <color name="white_fifty_per">#50FFFFFF</color>
+    <color name="black_eighty_per">#8006091C</color>
+
+    <color name="background_light_white">#f2f2f2</color>
+
+
+</resources>
